@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+body {
+    background-color: darkgrey; 
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+}
+
+p.uno {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+    width: 80%;
+    height: 10%;
+    border: hsl(41, 44%, 47%) 2px solid;
+    background-color: hsl(40, 72%, 66%);
+    text-align: center;
+    font-size: 23px;
+
+  }
+
+p.dos {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    width: 35%;
+    height: 30%;
+    z-index: 2;
+    border: hsl(120, 64%, 46%) 4px solid;
+    background-color: hsl(120, 65%, 62%);
+    text-align: center;
+  }
+  
+  p.tres {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(60, 64%, 55%) 4px solid;
+    background-color: hsl(60, 73%, 65%);
+    text-align: left;
+  }
+  
+  p.cuatro {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(180, 74%, 51%) 4px solid;
+    background-color: hsl(180, 79%, 82%);
+    text-align: right;
+  }
+  
+  p.cinco {
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(300, 45%, 74%) 4px solid;
+    background-color: hsl(300, 100%, 91%);
+    text-align: left;
+  }
+  
+  p.seis {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    border: hsl(0, 36%, 35%) 4px solid;
+    background-color: hsl(0, 100%, 85%);
+    text-align: right;
+  }
+  
